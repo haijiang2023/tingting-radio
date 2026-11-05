@@ -1,0 +1,24 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 构建与依赖（本仓库不含源码，仅作兜底）
+/build/
+/.dart_tool/
+/node_modules/
+
+# 安装包（通过 GitHub Releases 发布，不提交进仓库）
+*.apk
+*.aab
+*.zip
+
+# 密钥与本地配置
+*.jks
+*.keystore
+key.properties
+local.properties
+
+# 日志与临时文件
+*.log
+*.tmp
