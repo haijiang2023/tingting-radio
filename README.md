@@ -14,13 +14,13 @@
 
 | 项目 | 说明 |
 |---|---|
-| 最新版本 | [v2026.11.3](https://github.com/OWNER/tingting-radio/releases/latest) |
+| 最新版本 | [v2026.11.3](https://github.com/haijiang2023/tingting-radio/releases/latest) |
 | 安装包 | `dingding-radio-2026.11.3.apk`（约 21 MB） |
 | 系统要求 | Android 5.0（API 21）及以上，**arm64-v8a** 设备 |
 | 语言 | 简体中文 / 繁體中文 / English |
 | 价格 | 免费，无广告，无需登录 |
 
-**[⬇ 下载最新版 APK](https://github.com/OWNER/tingting-radio/releases/latest)**
+**[⬇ 下载最新版 APK](https://github.com/haijiang2023/tingting-radio/releases/latest)**
 
 SHA-256（v2026.11.3）：
 
@@ -44,7 +44,7 @@ SHA-256（v2026.11.3）：
 
 ## 快速开始
 
-1. 从 [Releases](https://github.com/OWNER/tingting-radio/releases/latest) 下载 APK。
+1. 从 [Releases](https://github.com/haijiang2023/tingting-radio/releases/latest) 下载 APK。
 2. 在手机上允许「安装未知来源应用」，点击安装。
 3. 打开 App，点击首页右上角 `+` 添加电台：可手动填写，也可从剪贴板或在线电台库导入。
 4. 点击电台立即播放；按下电源键后声音继续，通知栏可直接控制。
@@ -80,4 +80,4 @@ SHA-256（v2026.11.3）：
 
 ## 反馈
 
-遇到问题或有功能建议，请在本仓库的 [Issues](https://github.com/OWNER/tingting-radio/issues) 中反馈，并尽量附上：机型、系统版本、电台地址（可脱敏）、复现步骤。
+遇到问题或有功能建议，请在本仓库的 [Issues](https://github.com/haijiang2023/tingting-radio/issues) 中反馈，并尽量附上：机型、系统版本、电台地址（可脱敏）、复现步骤。
