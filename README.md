@@ -1,6 +1,10 @@
 # 叮叮电台 · TingTing Radio
 
-一款「纸墨风」的 Android 网络电台播放器：MP3 / M3U8 直播流开箱即播，息屏不断流，免登录、无广告，界面只有纸和墨。
+**Android 网络电台 / 网络收音机播放器** · 极简墨水屏风格 · MP3 / M3U8 直播流
+
+[简体中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md)
+
+叮叮电台是一款极简风仿墨水屏电子书界面的 Android 网络电台/收音机播放器APP：MP3 / M3U8 直播流开箱即播，息屏不断流，免登录、无广告。
 
 > 本仓库仅用于发布应用介绍、使用教程和正式版 APK，**不包含源代码**。
 
@@ -68,6 +72,10 @@ SHA-256（v2026.11.3）：
 | <img src="screenshots/home.png" width="220"> | <img src="screenshots/add-station.png" width="220"> |
 | 我的电台：分类计数与台源条目 | 新建：手动 / 剪贴板 / 在线库 / 新建分类 |
 
+## 关于「网络电台 / 网络收音机」
+
+叮叮电台（TingTing Radio）是一款免费的 Android **网络电台**播放器，也常被称作**网络收音机**、在线广播 App、互联网电台客户端。它支持 MP3 直链与 M3U8（HLS）直播流，适合收听音乐电台、城市电台、少儿电台等广播节目；免登录、无广告，电台与收藏数据只保存在本机。
+
 ## 说明
 
 - 应用不内置大规模电台目录，首启仅有 4 个 AsiaFM 示例台；其余电台由你自行添加。
@@ -81,3 +89,7 @@ SHA-256（v2026.11.3）：
 ## 反馈
 
 遇到问题或有功能建议，请在本仓库的 [Issues](https://github.com/haijiang2023/tingting-radio/issues) 中反馈，并尽量附上：机型、系统版本、电台地址（可脱敏）、复现步骤。
+
+**关键词**：网络电台、网络收音机、网络收音机 App、电台 App、收音机 App、在线广播、互联网电台、直播流电台、MP3 电台、M3U8 电台、HLS 电台、Android 电台播放器、墨水屏风格电台、免费无广告电台。
+
+English keywords: internet radio, online radio, radio player, streaming radio, HLS radio, M3U8 radio, MP3 radio, Android radio app, free radio app, no ads.
