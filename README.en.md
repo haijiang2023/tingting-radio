@@ -22,7 +22,7 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 | Package (recommended) | `ding-radio-android5~17_armeabi-v8a-2026.11.12.apk` (~21.6 MB) |
 | Package (legacy devices) | `ding-radio-android4.x_armeabi-v7a-2026.11.12.apk` (~2.6 MB) |
 | Requirements | **5.0 (API 21) – 17**: arm64-v8a; **4.x (API 17+)**: armeabi-v7a |
-| Languages | Simplified Chinese / Traditional Chinese / English |
+| Languages | Follow system + 14 languages: Simplified/Traditional Chinese, English, Español, Deutsch, Français, Русский, Português, Italiano, Ελληνικά, Nederlands, Română, Polski |
 | Price | Free, no ads, no sign-in required |
 
 **[⬇ Download the latest APK (GitHub Releases)](https://github.com/haijiang2023/tingting-radio/releases/latest)**
@@ -38,9 +38,10 @@ Verify the checksum after downloading, then install. If you are unsure, pick **a
 
 ## What's new (v2026.11.12)
 
-1. **RadioBrowser public station library**: search and listen to 50,000+ stations worldwide with one tap;
+1. **RadioBrowser public station library**: tap the **Discover** tab at the bottom to browse **52,000+** stations by location / category / search. Hit the `+` on any row to add it;
 2. **Bulk group / bulk delete** for your own station library;
-3. Several UI polish and bug fixes.
+3. **Multilingual UI**: follow system or pick from 14 languages (Simplified Chinese, Traditional Chinese, English, Español, Deutsch, Français, Русский, Português, Italiano, Ελληνικά, Nederlands, Română, Polski). Changes take effect immediately;
+4. Several UI polish and bug fixes.
 
 ## Features
 
@@ -52,24 +53,25 @@ Verify the checksum after downloading, then install. If you are unsure, pick **a
 - **Sleep timer** — stop automatically after 15 / 30 / 60 minutes.
 - **Auto skip on failure** — when a stream fails, the app offers a clear message and tries the next station.
 - **System volume sync** — the volume bar reads and writes Android media volume directly.
+- **Multilingual interface** — follow system or manually pick one of 14 languages. Changes take effect immediately.
 - **Paper-and-ink UI** — paper `#F2F2EC` + ink `#16160F`, inverted selection, no colors, gradients or shadows.
 
 ## Quick start
 
 1. Download the APK from [Releases](https://github.com/haijiang2023/tingting-radio/releases/latest).
 2. Allow “Install unknown apps” on your phone, then install it.
-3. Open the app and tap `+` at the top right: add a station manually, import from the clipboard, or search the online radio directory.
+3. Open the app, tap **Discover** at the bottom. You’ll see **52,000+** public stations — browse by location / category / search, and hit `+` on any row to add it.
 4. Tap a station to play. Playback continues after you press the power button, and controls stay available in the notification shade.
 
 Detailed guide (Simplified Chinese): [使用教程](docs/使用教程.md) · FAQ: [常见问题](docs/常见问题.md)
 
-## Three ways to add stations
+## Ways to add stations
 
 | Method | Best for |
 |---|---|
+| **Discover · RadioBrowser** (recommended) | Browse 50,000+ public stations by country / genre / keyword. Tap `+` to add |
 | Add manually | You already know an MP3 direct link or M3U8 URL |
-| Import from clipboard | You have copied several stream URLs and want to parse them in bulk |
-| Import from online library | Search a public radio directory and add with one tap |
+| Bulk import from clipboard | You have copied several stream URLs and want to parse them at once |
 
 You can create a group while adding a station. Groups are optional; the home screen shows a mixed list with groups on top and ungrouped stations below.
 
@@ -77,8 +79,12 @@ You can create a group while adding a station. Groups are optional; the home scr
 
 | | |
 |---|---|
-| <img src="screenshots/home.png" width="220"> | <img src="screenshots/add-station.png" width="220"> |
-| My stations: group counts and station entries | Add: manual / clipboard / online library / new group |
+| <img src="screenshots/home.jpg" width="220"> | <img src="screenshots/add-station.jpg" width="220"> |
+| My stations: group counts and station entries | Discover: 52,000+ RadioBrowser stations, tap `+` to add |
+| | |
+|---|---|
+| <img src="screenshots/lang.jpg" width="220"> | <img src="screenshots/player.png" width="220"> |
+| Language: follow system + 14 languages, changes apply instantly | Now playing: paper-and-ink UI + notification controls |
 
 ## About internet radio and online radio
 
