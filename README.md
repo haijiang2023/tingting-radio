@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="screenshots/home.jpg" width="230" alt="我的电台">
-  <img src="screenshots/player.png" width="230" alt="正在播放">
+  <img src="screenshots/player.jpg" width="230" alt="正在播放">
   <img src="screenshots/favorites.jpg" width="230" alt="收藏">
 </p>
 
@@ -77,14 +77,16 @@ armeabi-v7a / Android 4.x 老包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 ## 界面
 
-| | |
-|---|---|
-| <img src="screenshots/home.jpg" width="220"> | <img src="screenshots/add-station.jpg" width="220"> |
-| 我的电台：分类计数与台源条目 | 发现页：RadioBrowser 5.2 万+ 电台，右侧 `+` 一键加入 |
-| | |
-|---|---|
-| <img src="screenshots/lang.jpg" width="220"> | <img src="screenshots/player.png" width="220"> |
-| 语言：跟随系统 + 14 种语言，选择后立即生效 | 正在播放：纸墨界面 + 通知栏控制 |
+<p align="center">
+  <a href="screenshots/home.jpg"><img src="screenshots/home.jpg" width="200" alt="我的电台"></a>
+  <a href="screenshots/add-station.jpg"><img src="screenshots/add-station.jpg" width="200" alt="发现页"></a>
+  <a href="screenshots/lang.jpg"><img src="screenshots/lang.jpg" width="200" alt="语言"></a>
+  <a href="screenshots/player.jpg"><img src="screenshots/player.jpg" width="200" alt="正在播放"></a>
+</p>
+
+<p align="center">
+  我的电台 · 发现页（RadioBrowser 5.2 万+ 电台）· 语言设置（14 种）· 正在播放
+</p>
 
 ## 关于「网络电台 / 网络收音机」
 

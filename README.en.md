@@ -10,7 +10,7 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 
 <p align="center">
   <img src="screenshots/home.jpg" width="230" alt="My stations">
-  <img src="screenshots/player.png" width="230" alt="Now playing">
+  <img src="screenshots/player.jpg" width="230" alt="Now playing">
   <img src="screenshots/favorites.jpg" width="230" alt="Favorites">
 </p>
 
@@ -77,14 +77,16 @@ You can create a group while adding a station. Groups are optional; the home scr
 
 ## Screenshots
 
-| | |
-|---|---|
-| <img src="screenshots/home.jpg" width="220"> | <img src="screenshots/add-station.jpg" width="220"> |
-| My stations: group counts and station entries | Discover: 52,000+ RadioBrowser stations, tap `+` to add |
-| | |
-|---|---|
-| <img src="screenshots/lang.jpg" width="220"> | <img src="screenshots/player.png" width="220"> |
-| Language: follow system + 14 languages, changes apply instantly | Now playing: paper-and-ink UI + notification controls |
+<p align="center">
+  <a href="screenshots/home.jpg"><img src="screenshots/home.jpg" width="200" alt="My stations"></a>
+  <a href="screenshots/add-station.jpg"><img src="screenshots/add-station.jpg" width="200" alt="Discover"></a>
+  <a href="screenshots/lang.jpg"><img src="screenshots/lang.jpg" width="200" alt="Language"></a>
+  <a href="screenshots/player.jpg"><img src="screenshots/player.jpg" width="200" alt="Now playing"></a>
+</p>
+
+<p align="center">
+  My stations · Discover (52,000+ RadioBrowser stations) · Language (14) · Now playing
+</p>
 
 ## About internet radio and online radio
 

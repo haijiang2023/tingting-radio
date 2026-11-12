@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="screenshots/home.jpg" width="230" alt="我的電台">
-  <img src="screenshots/player.png" width="230" alt="正在播放">
+  <img src="screenshots/player.jpg" width="230" alt="正在播放">
   <img src="screenshots/favorites.jpg" width="230" alt="收藏">
 </p>
 
@@ -77,14 +77,16 @@ armeabi-v7a / Android 4.x 舊包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 ## 介面
 
-| | |
-|---|---|
-| <img src="screenshots/home.jpg" width="220"> | <img src="screenshots/add-station.jpg" width="220"> |
-| 我的電台：分類計數與台源項目 | 發現頁：RadioBrowser 5.2 萬+ 電台，右側 `+` 一鍵加入 |
-| | |
-|---|---|
-| <img src="screenshots/lang.jpg" width="220"> | <img src="screenshots/player.png" width="220"> |
-| 語言：跟隨系統 + 14 種語言，選擇後立即生效 | 正在播放：紙墨介面 + 通知列控制 |
+<p align="center">
+  <a href="screenshots/home.jpg"><img src="screenshots/home.jpg" width="200" alt="我的電台"></a>
+  <a href="screenshots/add-station.jpg"><img src="screenshots/add-station.jpg" width="200" alt="發現頁"></a>
+  <a href="screenshots/lang.jpg"><img src="screenshots/lang.jpg" width="200" alt="語言"></a>
+  <a href="screenshots/player.jpg"><img src="screenshots/player.jpg" width="200" alt="正在播放"></a>
+</p>
+
+<p align="center">
+  我的電台 · 發現頁（RadioBrowser 5.2 萬+ 電台）· 語言設定（14 種）· 正在播放
+</p>
 
 ## 關於「網路電台 / 網路收音機」
 
