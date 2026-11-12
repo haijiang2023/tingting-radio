@@ -9,9 +9,9 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 > This repository is for the app introduction, user guide and official APK releases only. **Source code is not included.**
 
 <p align="center">
-  <img src="screenshots/home.png" width="230" alt="My stations">
+  <img src="screenshots/home.jpg" width="230" alt="My stations">
   <img src="screenshots/player.png" width="230" alt="Now playing">
-  <img src="screenshots/favorites.png" width="230" alt="Favorites">
+  <img src="screenshots/favorites.jpg" width="230" alt="Favorites">
 </p>
 
 ## Download
@@ -19,8 +19,8 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 | Item | Details |
 |---|---|
 | Latest version | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| Package (recommended) | `ding-radio-android5-17_armeabi-v8a-2026.11.12.apk` (~21.6 MB) |
-| Package (legacy devices) | `ding-radio-android4.x_armeabi-v7a-2026.11.12.apk` (~2.6 MB) |
+| Package (recommended) | `01-ding-radio-android5-17_armeabi-v8a-2026.11.12.apk` (~21.6 MB) |
+| Package (legacy devices) | `02-ding-radio-android4.x_armeabi-v7a-2026.11.12.apk` (~2.6 MB) |
 | Requirements | **5.0 (API 21) – 17**: arm64-v8a; **4.x (API 17+)**: armeabi-v7a |
 | Languages | Follow system + 14 languages: Simplified/Traditional Chinese, English, Español, Deutsch, Français, Русский, Português, Italiano, Ελληνικά, Nederlands, Română, Polski |
 | Price | Free, no ads, no sign-in required |

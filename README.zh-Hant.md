@@ -9,9 +9,9 @@
 > 本倉庫僅用於發布應用介紹、使用教學與正式版 APK，**不包含原始碼**。
 
 <p align="center">
-  <img src="screenshots/home.png" width="230" alt="我的電台">
+  <img src="screenshots/home.jpg" width="230" alt="我的電台">
   <img src="screenshots/player.png" width="230" alt="正在播放">
-  <img src="screenshots/favorites.png" width="230" alt="收藏">
+  <img src="screenshots/favorites.jpg" width="230" alt="收藏">
 </p>
 
 ## 下載
@@ -19,8 +19,8 @@
 | 項目 | 說明 |
 |---|---|
 | 最新版本 | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| 安裝包（推薦） | `ding-radio-android5-17_armeabi-v8a-2026.11.12.apk`（約 21.6 MB） |
-| 安裝包（舊裝置） | `ding-radio-android4.x_armeabi-v7a-2026.11.12.apk`（約 2.6 MB） |
+| 安裝包（推薦） | `01-ding-radio-android5-17_armeabi-v8a-2026.11.12.apk`（約 21.6 MB） |
+| 安裝包（舊裝置） | `02-ding-radio-android4.x_armeabi-v7a-2026.11.12.apk`（約 2.6 MB） |
 | 系統需求 | **5.0（API 21）~ 17**：arm64-v8a；**4.x（API 17+）**：armeabi-v7a |
 | 語言 | 跟隨系統 + 14 種語言：中（簡/繁）、英、西、德、法、俄、葡、意、希、荷、羅、波 |
 | 價格 | 免費、無廣告、免登入 |
