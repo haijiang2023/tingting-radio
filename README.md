@@ -18,28 +18,36 @@
 
 | 项目 | 说明 |
 |---|---|
-| 最新版本 | [v2026.11.3](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| 安装包 | `dingding-radio-2026.11.3.apk`（约 21 MB） |
-| 系统要求 | Android 5.0（API 21）及以上，**arm64-v8a** 设备 |
+| 最新版本 | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
+| 安装包（推荐） | `ding-radio-android5~17_armeabi-v8a-2026.11.12.apk`（约 21.6 MB） |
+| 安装包（老设备） | `ding-radio-android4.x_armeabi-v7a-2026.11.12.apk`（约 2.6 MB） |
+| 系统要求 | **5.0（API 21）~ 17**：arm64-v8a；**4.x（API 17+）**：armeabi-v7a |
 | 语言 | 简体中文 / 繁體中文 / English |
 | 价格 | 免费，无广告，无需登录 |
 
-**[⬇ 下载最新版 APK](https://github.com/haijiang2023/tingting-radio/releases/latest)**
+**[⬇ 下载最新版 APK（GitHub Releases）](https://github.com/haijiang2023/tingting-radio/releases/latest)**
 
-SHA-256（v2026.11.3）：
+SHA-256（v2026.11.12）：
 
 ```
-2A789F628A766CF767158677FADEE621D7EEBE839019123CBC62AF21D3368FF8
+arm64-v8a / Android 5~17 主包：14C35644B667A8C290804CDF5C0CCC7987E9296046C9FAB36EFB82BE06228B7C
+armeabi-v7a / Android 4.x 老包：9D04985AA516F3E290457688FE883CFCE70A228F18275B22E73B497043AC6F61
 ```
 
-下载后可在系统里核对文件哈希，再安装。
+下载后可在系统里核对文件哈希，再安装。不确定选哪个的话，下载 **arm64-v8a** 即可（绝大多是 2018 年后的机型）。
+
+## 更新说明（v2026.11.12）
+
+1. **接入 RadioBrowser 公共电台库**，一键搜索收听全世界 5 万+ 电台；
+2. **新增电台批量归类、批量删除**，整理自建电台库更高效；
+3. 多项界面小改进与已知问题修复。
 
 ## 功能
 
 - **MP3 / M3U8 双格式**：格式按链接自动判断，不用手选协议。
 - **息屏不断流**：前台媒体服务 + 唤醒锁，锁屏、切后台继续播放。
 - **通知栏 / 锁屏控制**：播放、暂停、上一台、下一台、停止。
-- **自建电台库**：添加、编辑、移动、删除、分类；支持剪贴板批量导入与在线电台库搜索。
+- **自建电台库**：添加、编辑、移动、删除、分类、批量归类、批量删除；支持剪贴板批量导入与 RadioBrowser 在线电台库（5 万+）搜索。
 - **收藏与续听**：收藏常用电台，冷启动回到上次收听。
 - **睡眠定时**：15 / 30 / 60 分钟自动停止。
 - **失败自动切台**：直播源失效时提示并自动尝试下一台。
@@ -78,17 +86,17 @@ SHA-256（v2026.11.3）：
 
 ## 说明
 
-- 应用不内置大规模电台目录，首启仅有 4 个 AsiaFM 示例台；其余电台由你自行添加。
+- 应用内置部分示例台；其余电台由你自行添加。
 - 电台源由你自己录入，第三方转流地址可能失效或受地域限制。
 - 电台、分类、收藏、音量等数据只保存在本机，不需要账号；卸载会一并清除。
-- 当前仅发布 Android arm64 版本，未上架任何应用商店。
+- 同时发布 **arm64-v8a（Android 5~17）** 与 **armeabi-v7a（Android 4.x）** 两个版本，未上架任何应用商店。
 - 本仓库不提供源码；应用与文案版权归作者所有，APK 可免费下载安装用于个人收听，请勿二次打包、修改后分发或用于商业用途。
 
-官方网站：<https://www.caicaiapp.com/radio/index.html>
+官方网站：<https://www.caicaiapp.com/radio/>
 
 ## 反馈
 
-遇到问题或有功能建议，请在本仓库的 [Issues](https://github.com/haijiang2023/tingting-radio/issues) 中反馈，并尽量附上：机型、系统版本、电台地址（可脱敏）、复现步骤。
+遇到问题或有功能建议，请在本仓库的 [Issues](https://github.com/haijiang2023/tingting-radio/issues) 中反馈，并尽量附上：机型、系统版本、电台地址、复现步骤。
 
 **关键词**：网络电台、网络收音机、网络收音机 App、电台 App、收音机 App、在线广播、互联网电台、直播流电台、MP3 电台、M3U8 电台、HLS 电台、Android 电台播放器、墨水屏风格电台、免费无广告电台。
 

@@ -18,28 +18,36 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 
 | Item | Details |
 |---|---|
-| Latest version | [v2026.11.3](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| Package | `dingding-radio-2026.11.3.apk` (~21 MB) |
-| Requirements | Android 5.0 (API 21)+, **arm64-v8a** |
+| Latest version | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
+| Package (recommended) | `ding-radio-android5~17_armeabi-v8a-2026.11.12.apk` (~21.6 MB) |
+| Package (legacy devices) | `ding-radio-android4.x_armeabi-v7a-2026.11.12.apk` (~2.6 MB) |
+| Requirements | **5.0 (API 21) – 17**: arm64-v8a; **4.x (API 17+)**: armeabi-v7a |
 | Languages | Simplified Chinese / Traditional Chinese / English |
 | Price | Free, no ads, no sign-in required |
 
-**[⬇ Download the latest APK](https://github.com/haijiang2023/tingting-radio/releases/latest)**
+**[⬇ Download the latest APK (GitHub Releases)](https://github.com/haijiang2023/tingting-radio/releases/latest)**
 
-SHA-256 (v2026.11.3):
+SHA-256 (v2026.11.12):
 
 ```
-2A789F628A766CF767158677FADEE621D7EEBE839019123CBC62AF21D3368FF8
+arm64-v8a / Android 5~17 (main build): 14C35644B667A8C290804CDF5C0CCC7987E9296046C9FAB36EFB82BE06228B7C
+armeabi-v7a / Android 4.x (legacy build): 9D04985AA516F3E290457688FE883CFCE70A228F18275B22E73B497043AC6F61
 ```
 
-Verify the checksum after downloading, then install.
+Verify the checksum after downloading, then install. If you are unsure, pick **arm64-v8a** — almost all phones released after 2018 support it.
+
+## What's new (v2026.11.12)
+
+1. **RadioBrowser public station library**: search and listen to 50,000+ stations worldwide with one tap;
+2. **Bulk group / bulk delete** for your own station library;
+3. Several UI polish and bug fixes.
 
 ## Features
 
 - **MP3 & M3U8 support** — the stream format is detected from the URL automatically.
 - **Keeps playing with the screen off** — foreground media service + wake lock; playback continues when locked or backgrounded.
 - **Notification and lock-screen controls** — play, pause, previous, next, stop.
-- **Your own station library** — add, edit, move, delete and group stations; bulk import from the clipboard or search an online radio directory.
+- **Your own station library** — add, edit, move, delete, group, bulk-group and bulk-delete; bulk import from the clipboard or search the RadioBrowser online directory (50,000+ stations).
 - **Favorites and resume** — star the stations you use and return to the last one on cold start.
 - **Sleep timer** — stop automatically after 15 / 30 / 60 minutes.
 - **Auto skip on failure** — when a stream fails, the app offers a clear message and tries the next station.
@@ -78,17 +86,17 @@ Dingding Radio (TingTing Radio) is a free **internet radio** and **online radio*
 
 ## Notes
 
-- No large built-in station catalog; only 4 AsiaFM sample stations appear on first launch. Add the rest yourself.
+- Some stations appear on first launch. Add the rest yourself.
 - You provide the stream URLs; third-party streams may expire or be region-restricted.
 - Stations, groups, favorites and volume are stored on your device only. Uninstalling clears them.
-- Only the Android arm64 build is published; the app is not available on any app store.
+- Two builds are published: **arm64-v8a (Android 5–17)** and **armeabi-v7a (Android 4.x)**. The app is not available on any app store.
 - Source code is not provided. The app and this repository's content are copyrighted. The APK may be downloaded and installed for personal listening. Do not repackage, modify and redistribute it, or use it commercially.
 
-Official website: <https://www.caicaiapp.com/radio/index.html>
+Official website: <https://www.caicaiapp.com/radio/>
 
 ## Feedback
 
-For bugs or feature requests, please open an [Issue](https://github.com/haijiang2023/tingting-radio/issues) and include your phone model, Android version, the station URL (redacted if needed) and steps to reproduce.
+For bugs or feature requests, please open an [Issue](https://github.com/haijiang2023/tingting-radio/issues) and include your phone model, Android version, the station URL and steps to reproduce.
 
 **Keywords**: internet radio, online radio, radio player, streaming radio, HLS radio, M3U8 radio, MP3 radio, Android radio app, free radio app, no ads, e-ink radio player, minimalist radio app, Chinese radio app.
 
