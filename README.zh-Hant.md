@@ -9,7 +9,7 @@
 > 本倉庫僅用於發布應用介紹、使用教學與正式版 APK，**不包含原始碼**。
 
 <p align="center">
-  <img src="screenshots/home.jpg" width="230" alt="我的電台">
+  <img src="screenshots/library.jpg" width="230" alt="我的電台">
   <img src="screenshots/player.jpg" width="230" alt="正在播放">
   <img src="screenshots/favorites.jpg" width="230" alt="收藏">
 </p>
@@ -38,17 +38,16 @@ armeabi-v7a / Android 4.x 舊包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 ## 更新說明（v2026.11.12）
 
-1. **接入 RadioBrowser 公共電台庫**，底部切到「發現」即可按本地 / 分類 / 搜尋瀏覽全世界 **5.2 萬+** 電台，點右側 `+` 一鍵收藏；
-2. **新增電台批次歸類、批次刪除**，整理自建電台庫更高效；
-3. **多語言介面**：跟隨系統 + 14 種語言（簡中、繁中、英、西、德、法、俄、葡、意、希、荷、羅、波），選擇後立即生效；
-4. 多項介面小改進與已知問題修復。
+1. **新增電台批次歸類、批次刪除**，整理自建電台庫更高效；
+2. **多語言介面**：跟隨系統 + 14 種語言（簡中、繁中、英、西、德、法、俄、葡、意、希、荷、羅、波），選擇後立即生效；
+3. 多項介面小改進與已知問題修復。
 
 ## 功能
 
 - **MP3 / M3U8 雙格式**：依連結自動判斷格式，不需手動選擇協定。
 - **螢幕關閉不斷流**：前景媒體服務 + 喚醒鎖，鎖定畫面、切到背景都能繼續播放。
 - **通知列 / 鎖定畫面控制**：播放、暫停、上一台、下一台、停止。
-- **自建電台庫**：新增、編輯、移動、刪除、分類、批次歸類、批次刪除；支援剪貼簿批次匯入與 RadioBrowser 線上電台庫（5 萬+）搜尋。
+- **自建電台庫**：手動新增或從剪貼簿批次匯入 MP3 / M3U8 電台；支援編輯、移動、刪除、分類、批次歸類、批次刪除。
 - **收藏與續聽**：收藏常用電台，冷啟動回到上次收聽。
 - **睡眠定時**：15 / 30 / 60 分鐘後自動停止。
 - **失敗自動切台**：直播源失效時提示並自動嘗試下一台。
@@ -60,7 +59,7 @@ armeabi-v7a / Android 4.x 舊包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 1. 從 [Releases](https://github.com/haijiang2023/tingting-radio/releases/latest) 下載 APK。
 2. 在手機上允許「安裝未知來源應用程式」，點擊安裝。
-3. 開啟 App，底部切到「發現」，就能看到 **5.2 萬+** 公共電台，按「本地 / 分類 / 搜尋」瀏覽，點每行右側 `+` 即可加入。
+3. 開啟 App，點擊首頁右上角 `+`，手動填寫電台名稱與 MP3 / M3U8 位址，或從剪貼簿批次匯入。
 4. 點擊電台立即播放；按下電源鍵後聲音繼續，通知列可直接控制。
 
 完整說明見 [使用教學（簡體中文）](docs/使用教程.md)，常見問題見 [常見問題（簡體中文）](docs/常见问题.md)。
@@ -69,23 +68,22 @@ armeabi-v7a / Android 4.x 舊包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 | 方式 | 適合情境 |
 |---|---|
-| **發現頁 · RadioBrowser**（推薦） | 瀏覽 5 萬+ 公共電台，依國家 / 分類 / 關鍵字搜尋，點 `+` 即加 |
-| 手動新增 | 已知 MP3 直鏈或 M3U8 位址 |
-| 剪貼簿批次匯入 | 已複製多個台源連結，可批次解析 |
+| 手動新增 | 已知 MP3 直鏈或 M3U8 位址，逐個填寫電台名稱與連結 |
+| 剪貼簿批次匯入 | 已複製多個台源連結，可一次性解析匯入 |
 
 新增時可順手建立分類。分類可以為 0 個，首頁會以「分類在上、未分類在下」的混合清單呈現。
 
 ## 介面
 
 <p align="center">
-  <a href="screenshots/home.jpg"><img src="screenshots/home.jpg" width="200" alt="我的電台"></a>
-  <a href="screenshots/add-station.jpg"><img src="screenshots/add-station.jpg" width="200" alt="發現頁"></a>
-  <a href="screenshots/lang.jpg"><img src="screenshots/lang.jpg" width="200" alt="語言"></a>
+  <a href="screenshots/library.jpg"><img src="screenshots/library.jpg" width="200" alt="我的電台"></a>
+  <a href="screenshots/home.jpg"><img src="screenshots/home.jpg" width="200" alt="播放記錄"></a>
+  <a href="screenshots/lang.jpg"><img src="screenshots/lang.jpg" width="200" alt="語言設定"></a>
   <a href="screenshots/player.jpg"><img src="screenshots/player.jpg" width="200" alt="正在播放"></a>
 </p>
 
 <p align="center">
-  我的電台 · 發現頁（RadioBrowser 5.2 萬+ 電台）· 語言設定（14 種）· 正在播放
+  我的電台 · 播放記錄 · 語言設定（14 種）· 正在播放
 </p>
 
 ## 關於「網路電台 / 網路收音機」
@@ -94,7 +92,7 @@ armeabi-v7a / Android 4.x 舊包：9D04985AA516F3E290457688FE883CFCE70A228F18275
 
 ## 說明
 
-- 應用程式不內建部分範例台；其餘電台由你自行新增。
+- 應用程式不內建電台目錄或範例台，所有電台均需由你自行新增。
 - 電台源由你自行輸入，第三方轉流位址可能失效或受地區限制。
 - 電台、分類、收藏、音量等資料只保存在本機，不需要帳號；解除安裝會一併清除。
 - 同時發布 **arm64-v8a（Android 5~17）** 與 **armeabi-v7a（Android 4.x）** 兩個版本，未上架任何應用程式商店。
