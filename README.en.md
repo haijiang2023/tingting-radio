@@ -30,8 +30,8 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 SHA-256 (v2026.11.12):
 
 ```
-arm64-v8a / Android 5~17 (main build): 14C35644B667A8C290804CDF5C0CCC7987E9296046C9FAB36EFB82BE06228B7C
-armeabi-v7a / Android 4.x (legacy build): 9D04985AA516F3E290457688FE883CFCE70A228F18275B22E73B497043AC6F61
+arm64-v8a / Android 5~17 (main build): AB6D734E2FDA99761CFB309A455AD6B92623A83D39B6ADC74D3FFDC67A6D6E40
+armeabi-v7a / Android 4.x (legacy build): 2190D40807179A714B54CB8A60B881CA11383A72574333C59BEE6E153BA075C7
 ```
 
 Verify the checksum after downloading, then install. If you are unsure, pick **arm64-v8a** — almost all phones released after 2018 support it.
