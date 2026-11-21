@@ -9,38 +9,38 @@
 > 本倉庫僅用於發布應用介紹、使用教學與正式版 APK，**不包含原始碼**。
 
 <p align="center">
-  <img src="screenshots/library.jpg" width="230" alt="我的電台">
-  <img src="screenshots/player.jpg" width="230" alt="正在播放">
-  <img src="screenshots/favorites.jpg" width="230" alt="收藏">
+  <img src="screenshots/skin-1.jpg" width="230" alt="皮膚 1">
+  <img src="screenshots/skin-2.jpg" width="230" alt="皮膚 2">
+  <img src="screenshots/skin-3.jpg" width="230" alt="皮膚 3">
 </p>
 
 ## 下載
 
 | 項目 | 說明 |
 |---|---|
-| 最新版本 | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| 安裝包（推薦） | `01-ding-radio-android5-17_armeabi-v8a-2026.11.12.apk`（約 21.6 MB） |
-| 安裝包（舊裝置） | `02-ding-radio-android4.x_armeabi-v7a-2026.11.12.apk`（約 2.6 MB） |
+| 最新版本 | [v2026.11.21](https://github.com/haijiang2023/tingting-radio/releases/latest) |
+| 安裝包（推薦） | `01-ting-radio-android5-17_armeabi-v8a-2026.11.21.apk`（約 22.3 MB） |
+| 安裝包（舊裝置） | `02-ting-radio-android4.x_armeabi-v7a-2026.11.21.apk`（約 2.6 MB） |
 | 系統需求 | **5.0（API 21）~ 17**：arm64-v8a；**4.x（API 17+）**：armeabi-v7a |
 | 語言 | 跟隨系統 + 14 種語言：中（簡/繁）、英、西、德、法、俄、葡、意、希、荷、羅、波 |
 | 價格 | 免費、無廣告、免登入 |
 
 **[⬇ 下載最新版 APK（GitHub Releases）](https://github.com/haijiang2023/tingting-radio/releases/latest)**
 
-SHA-256（v2026.11.12）：
+SHA-256（v2026.11.21）：
 
 ```
-arm64-v8a / Android 5~17 主包：AB6D734E2FDA99761CFB309A455AD6B92623A83D39B6ADC74D3FFDC67A6D6E40
-armeabi-v7a / Android 4.x 舊包：2190D40807179A714B54CB8A60B881CA11383A72574333C59BEE6E153BA075C7
+arm64-v8a / Android 5~17 主包：E092518571A24F3E48CAAF4B5B6E73359D0C824AAC82AEB2E75151E4A3F2CEB9
+armeabi-v7a / Android 4.x 舊包：4D32DE70BBB5DDF01410704B62DFF3487505853018865B087E9450C6BFFD2A2C
 ```
 
 下載後可在系統中核對檔案雜湊值，再進行安裝。不確定選哪個的話，下載 **arm64-v8a** 即可（2018 年後的機型幾乎都支援）。
 
-## 更新說明（v2026.11.12）
+## 更新說明（v2026.11.21）
 
-1. **新增電台批次歸類、批次刪除**，整理自建電台庫更高效；
-2. **多語言介面**：跟隨系統 + 14 種語言（簡中、繁中、英、西、德、法、俄、葡、意、希、荷、羅、波），選擇後立即生效；
-3. 多項介面小改進與已知問題修復。
+1. **新增 2 種播放介面**，共 3 種介面可選；
+2. **新增在「記錄」「我的」「收藏」頁直接播放**，不需進入播放介面頁；
+3. 多項小改進與已知問題修復。
 
 ## 功能
 

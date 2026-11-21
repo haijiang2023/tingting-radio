@@ -9,38 +9,38 @@ Dingding Radio (TingTing Radio) is a minimalist, e-ink-style internet radio play
 > This repository is for the app introduction, user guide and official APK releases only. **Source code is not included.**
 
 <p align="center">
-  <img src="screenshots/library.jpg" width="230" alt="My stations">
-  <img src="screenshots/player.jpg" width="230" alt="Now playing">
-  <img src="screenshots/favorites.jpg" width="230" alt="Favorites">
+  <img src="screenshots/skin-1.jpg" width="230" alt="Skin 1">
+  <img src="screenshots/skin-2.jpg" width="230" alt="Skin 2">
+  <img src="screenshots/skin-3.jpg" width="230" alt="Skin 3">
 </p>
 
 ## Download
 
 | Item | Details |
 |---|---|
-| Latest version | [v2026.11.12](https://github.com/haijiang2023/tingting-radio/releases/latest) |
-| Package (recommended) | `01-ding-radio-android5-17_armeabi-v8a-2026.11.12.apk` (~21.6 MB) |
-| Package (legacy devices) | `02-ding-radio-android4.x_armeabi-v7a-2026.11.12.apk` (~2.6 MB) |
+| Latest version | [v2026.11.21](https://github.com/haijiang2023/tingting-radio/releases/latest) |
+| Package (recommended) | `01-ting-radio-android5-17_armeabi-v8a-2026.11.21.apk` (~22.3 MB) |
+| Package (legacy devices) | `02-ting-radio-android4.x_armeabi-v7a-2026.11.21.apk` (~2.6 MB) |
 | Requirements | **5.0 (API 21) – 17**: arm64-v8a; **4.x (API 17+)**: armeabi-v7a |
 | Languages | Follow system + 14 languages: Simplified/Traditional Chinese, English, Español, Deutsch, Français, Русский, Português, Italiano, Ελληνικά, Nederlands, Română, Polski |
 | Price | Free, no ads, no sign-in required |
 
 **[⬇ Download the latest APK (GitHub Releases)](https://github.com/haijiang2023/tingting-radio/releases/latest)**
 
-SHA-256 (v2026.11.12):
+SHA-256 (v2026.11.21):
 
 ```
-arm64-v8a / Android 5~17 (main build): AB6D734E2FDA99761CFB309A455AD6B92623A83D39B6ADC74D3FFDC67A6D6E40
-armeabi-v7a / Android 4.x (legacy build): 2190D40807179A714B54CB8A60B881CA11383A72574333C59BEE6E153BA075C7
+arm64-v8a / Android 5~17 (main build): E092518571A24F3E48CAAF4B5B6E73359D0C824AAC82AEB2E75151E4A3F2CEB9
+armeabi-v7a / Android 4.x (legacy build): 4D32DE70BBB5DDF01410704B62DFF3487505853018865B087E9450C6BFFD2A2C
 ```
 
 Verify the checksum after downloading, then install. If you are unsure, pick **arm64-v8a** — almost all phones released after 2018 support it.
 
-## What's new (v2026.11.12)
+## What's new (v2026.11.21)
 
-1. **Bulk group / bulk delete** for your own station library;
-2. **Multilingual UI**: follow system or pick from 14 languages (Simplified Chinese, Traditional Chinese, English, Español, Deutsch, Français, Русский, Português, Italiano, Ελληνικά, Nederlands, Română, Polski). Changes take effect immediately;
-3. Several UI polish and bug fixes.
+1. **Two new player screens** — choose from 3 player layouts;
+2. **Play directly from the History, My and Favorites pages** — no need to open the player screen;
+3. Several small improvements and bug fixes.
 
 ## Features
 
